@@ -11,9 +11,9 @@
 	<artifactId>telegrambot</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
-	<properties>
-		<java.version>11</java.version>
-	</properties>
+<!--	<properties>-->
+<!--		<java.version>11</java.version>-->
+<!--	</properties>-->
 	<dependencies>
 
 		<dependency>
