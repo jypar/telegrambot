@@ -6,7 +6,7 @@
 	<groupId>com.github</groupId>
 	<artifactId>telegrambot</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>jar</packaging>
+	<packaging>war</packaging>
 	<properties>
 		<maven.compiler.source>1.8</maven.compiler.source>
 		<maven.compiler.target>1.8</maven.compiler.target>
@@ -35,7 +35,6 @@
 			<version>2.6.0</version>
 		</dependency>
 
-
 	</dependencies>
 
 	<build>
@@ -51,10 +50,6 @@
 					<target>${maven.compiler.target}</target>
 				</configuration>
 			</plugin>
-				<plugin>
-					<groupId>org.springframework.boot</groupId>
-					<artifactId>spring-boot-maven-plugin</artifactId>
-				</plugin>
 		</plugins>
 	</build>
 
