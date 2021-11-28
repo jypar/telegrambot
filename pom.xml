@@ -6,10 +6,8 @@
 	<groupId>com.github</groupId>
 	<artifactId>telegrambot</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>jar</packaging>
 	<properties>
-		<maven.compiler.source>1.8</maven.compiler.source>
-		<maven.compiler.target>1.8</maven.compiler.target>
+
 		<java.version>11</java.version>
 		<telegrambots-spring.version>0.24</telegrambots-spring.version>
 	</properties>
@@ -41,24 +39,12 @@
 		<finalName>TelegramBot</finalName>
 		<defaultGoal>package</defaultGoal>
 		<plugins>
+
 			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-compiler-plugin</artifactId>
-				<version>3.8.1</version>
-				<configuration>
-					<source>${maven.compiler.source}</source>
-					<target>${maven.compiler.target}</target>
-				</configuration>
-			</plugin>
-			<plugin>
-				<!-- Build an executable JAR -->
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
-				<version>2.5.7</version>
-				<configuration>
-					<mainClass>com.github.telegrambot.TelegrambotApplication</mainClass>
-				</configuration>
 			</plugin>
+
 		</plugins>
 	</build>
 
