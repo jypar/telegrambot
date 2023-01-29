@@ -7,7 +7,7 @@ public class NoCommand implements Command{
 
     private final SendBotMessageService sendBotMessageService;
 
-    public static final String NO_MESSAGE = "Я поддерживаю команды, начинающиеся со слеша(/).";
+    public static final String NO_MESSAGE = "I support commands starting with a slash(/).";
 
     public NoCommand(SendBotMessageService sendBotMessageService) {
         this.sendBotMessageService = sendBotMessageService;

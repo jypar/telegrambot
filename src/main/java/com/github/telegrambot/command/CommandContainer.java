@@ -15,7 +15,7 @@ public class CommandContainer {
         commandMap = ImmutableMap.<String, Command>builder()
                 .put(START.getCommandName(), new StartCommand(sendBotMessageService))
                 .put(NO.getCommandName(), new NoCommand(sendBotMessageService))
-                .put(FACTS.getCommandName(),new FactsCommand(sendBotMessageService))
+                .put(RANDOM_ADVICE.getCommandName(),new AdviceCommand(sendBotMessageService))
                 .build();
 
         unknownCommand = new UnknownCommand(sendBotMessageService);

@@ -6,7 +6,7 @@ public enum CommandName {
     STOP("/stop"),
     HELP("/help"),
     NO(""),
-    FACTS("/facts");
+    RANDOM_ADVICE("/advice");
 
 
     private final String commandName;
